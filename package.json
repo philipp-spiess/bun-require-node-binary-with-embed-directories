@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build:bug": "bun build --compile ./src/index.js ./assets/* --outfile=./app",
+    "build": "bun build --compile ./src/index.js --outfile=./app"
+  },
+  "dependencies": {
+    "@parcel/watcher-darwin-arm64": "latest"
+  },
+  "devDependencies": {
+    "bun": "latest"
+  }
+}
